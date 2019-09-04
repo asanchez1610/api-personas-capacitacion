@@ -26,7 +26,7 @@
 
 ## Description
 
-Proyecto Rest desarrollado con [Nest](https://github.com/nestjs/nest) y que se conecta con una base de datos de Mysql, generada con docker.
+Proyecto Rest desarrollado con [Nest](https://github.com/nestjs/nest) y que se conecta con una base de datos de Mysql generada con docker.
 
 ## Installation Mysql Docker
 El path del proyecto, para iniciar el servidor ejecutar:
