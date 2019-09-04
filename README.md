@@ -44,6 +44,9 @@ $ yarn install
 ```
 Ó ejecutar dentro de la carpeta api
 ```bash
+$ yarn install
+```
+```bash
 $ yarn build
 ```
 Y después
