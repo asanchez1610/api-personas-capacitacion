@@ -37,10 +37,13 @@ Para detener el servidor ejecutar:
 $ docker-compose down
 ```
 
-## Installation Api Rest
+## Installation and Running Api Rest
 Dentro de la carpeta api
 ```bash
 $ yarn install
+```
+```bash
+$ yarn start
 ```
 Ó ejecutar dentro de la carpeta api
 ```bash
@@ -54,32 +57,6 @@ Y después
 $ node dist/main.js
 ```
 El puerto donde se ejecutan los servicios es el puerto 3000
-
-## Running the app
-Dentro de la carpeta api
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-Dentro de la carpeta api
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
 
