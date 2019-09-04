@@ -33,7 +33,6 @@ El path del proyecto, para iniciar el servidor ejecutar:
 ```bash
 $ docker-compose up -d
 ```
-
 Para detener el servidor ejecutar:
 ```bash
 $ docker-compose down
@@ -44,6 +43,15 @@ Dentro de la carpeta api
 ```bash
 $ yarn install
 ```
+Ó ejecutar dentro de la carpeta api
+```bash
+$ yarn build
+```
+Y después
+```bash
+$ node dist/main.js
+```
+El puerto donde se ejecutan los servicios es el puerto 3000
 
 ## Running the app
 Dentro de la carpeta api
