@@ -26,16 +26,16 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Proyecto Rest desarrollado con [Nest](https://github.com/nestjs/nest) y que se conecta con una base de datos de Mysql, generada con docker.
 
 ## Installation
-
+Dentro de la carpeta api
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
-
+Dentro de la carpeta api
 ```bash
 # development
 $ npm run start
@@ -48,7 +48,7 @@ $ npm run start:prod
 ```
 
 ## Test
-
+Dentro de la carpeta api
 ```bash
 # unit tests
 $ npm run test
@@ -66,9 +66,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Arturo Sanchez](asanchez.sys@gmail.com)
+
 
 ## License
 
