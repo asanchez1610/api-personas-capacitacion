@@ -39,7 +39,7 @@ Para detener el servidor ejecutar:
 $ docker-compose down
 ```
 
-## Installation
+## Installation Api Rest
 Dentro de la carpeta api
 ```bash
 $ yarn install
