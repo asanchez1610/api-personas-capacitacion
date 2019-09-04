@@ -61,22 +61,28 @@ El puerto donde se ejecutan los servicios es el 3000
 ## Servicios
 
 ```bash
-[POST]http://localhost:3000/personas - método para crear personas
+[POST]http://localhost:3000/personas 
+- método para crear personas
 ```
 ```bash
-[GET]http://localhost:3000/personas - método para listar personas
+[GET]http://localhost:3000/personas 
+- método para listar personas
 ```
 ```bash
-[GET]http://localhost:3000/personas/tipo-documento - método para listar tipos de documento
+[GET]http://localhost:3000/personas/tipo-documento 
+- método para listar tipos de documento
 ```
 ```bash
-[GET]http://localhost:3000/personas/departamantos - método para listar los departamentos del Perú.
+[GET]http://localhost:3000/personas/departamantos 
+- método para listar los departamentos del Perú.
 ```
 ```bash
-[GET]http://localhost:3000/personas/:codDepartamento/provincias - método para listar las provincias de un departamento.
+[GET]http://localhost:3000/personas/:codDepartamento/provincias 
+- método para listar las provincias de un departamento.
 ```
 ```bash
-[GET]http://localhost:3000/personas/:codDepartamento/:codProvincia/distritos - método para listar los distritos de una provincia.
+[GET]http://localhost:3000/personas/:codDepartamento/:codProvincia/distritos 
+- método para listar los distritos de una provincia.
 ```
 Para el detalle de cada servicio importar el archivo de postman
 ```bash
