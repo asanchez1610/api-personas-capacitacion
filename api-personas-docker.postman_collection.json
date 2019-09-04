@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "8bcecced-c331-4b8a-b614-663ecabd1192",
+		"name": "api-personas-docker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Personas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registrar Persona",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nombres\":\"Juan\",\n\t\"apellidos\":\"Perez\",\n\t\"numeroDocumento\": \"41523066\",\n\t\"email\":\"juan.perez@gmail.com\",\n\t\"direccion\":\"Av. Benjamin Franklin #510 - Asociación Sicuani\",\n\t\"telefono\":\"969007452\",\n\t\"estado\": true,\n\t\"tipoDocumento\":{\n\t\t\"id\": 1\n\t},\n\t\"ubigeo\":{\n\t\t\"id\":1370\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Tipo Documento de identidad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personas/tipo-documento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas",
+						"tipo-documento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Departamentos del Perú",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personas/departamantos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas",
+						"departamantos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Provincias (Lima)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personas/14/provincias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas",
+						"14",
+						"provincias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Distritos (Lima)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/personas/14/1/distritos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"personas",
+						"14",
+						"1",
+						"distritos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

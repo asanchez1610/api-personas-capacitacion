@@ -58,11 +58,32 @@ $ node dist/main.js
 ```
 El puerto donde se ejecutan los servicios es el puerto 3000
 
-## Support
+## Servicios
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+[POST]http://localhost:3000/personas metodo para crear personas
+```
+```bash
+[GET]http://localhost:3000/personas metodo para listar personas
+```
+```bash
+[GET]http://localhost:3000/personas/tipo-documento metodo para listar tipos de documento
+```
+```bash
+[GET]http://localhost:3000/personas/departamantos metodo para listar los departamentos del Perú.
+```
+```bash
+[GET]http://localhost:3000/personas/:codDepartamento/provincias metodo para listar las provincias de un departamento.
+```
+```bash
+[GET]http://localhost:3000/personas/:codDepartamento/:codProvincia/distritos metodo para listar los distritos de una provincia.
+```
+Para el detalle de cada servicio importar el archivo de postman
+```bash
+api-personas-docker.postman_collection.json
+```
 
-## Stay in touch
+## Creditos
 
 - Author - [Arturo Sanchez](asanchez.sys@gmail.com)
 
